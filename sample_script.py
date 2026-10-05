@@ -1,10 +1,15 @@
 # Sample script
 
+def hello_world():
+    return "Hello World!"
+
+
 def calculate_sum(a, b):
     """
     A simple function to calculate the sum of two numbers.
     """
     return a + b
+
 
 def display_sum(a, b):
     """
@@ -12,6 +17,7 @@ def display_sum(a, b):
     """
     sum_result = calculate_sum(a, b)
     print(f"The sum of {a} and {b} is {sum_result}.")
+
 
 def main():
     """
@@ -23,6 +29,7 @@ def main():
     print("Starting the placeholder script...")
     display_sum(num1, num2)
     print("Script finished.")
+
 
 if __name__ == "__main__":
     main()
